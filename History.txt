@@ -1,6 +1,6 @@
 == 0.1.0 / 2007-12-23
 
- * Initial release.
- * Supports the GNU Toolchain.
- * Supports NASM.
+* Initial release.
+* Supports the GNU Toolchain.
+* Supports NASM.
 

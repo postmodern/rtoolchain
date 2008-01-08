@@ -9,14 +9,14 @@ assemblers. Currently RToolchain supports the GNU toolchain and NASM.
 
 == FEATURES/PROBLEMS:
   
- * Supports the GNU Toolchain.
- * Supports NASM.
+* Supports the GNU Toolchain.
+* Supports NASM.
 
 == REQUIREMENTS:
 
 == INSTALL:
 
-sudo gem install rtoolchain
+  $ sudo gem install rtoolchain
 
 == LICENSE:
 
