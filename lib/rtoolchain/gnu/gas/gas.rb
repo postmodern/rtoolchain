@@ -1,5 +1,5 @@
 require 'rtoolchain/assembler'
-require 'rtoolchain/gnu/gas/gastask'
+require 'rtoolchain/gnu/gas/gas_task'
 
 module RToolchain
   module GNU

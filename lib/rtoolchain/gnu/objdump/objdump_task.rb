@@ -1,8 +1,8 @@
-require 'rtoolchain/task'
+require 'rtoolchain/gnu/binutil_task'
 
 module RToolchain
   module GNU
-    class ObjdumpTask < Task
+    class ObjdumpTask < BinutilTask
 
       # Strings options
 

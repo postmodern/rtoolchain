@@ -1,4 +1,4 @@
-require 'rtoolchain/gnu/gnutask'
+require 'rtoolchain/gnu/gnu_task'
 
 module RToolchain
   module GNU

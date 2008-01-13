@@ -1,5 +1,5 @@
 require 'rtoolchain/gnu/binutil'
-require 'rtoolchain/gnu/objdump/objdumptask'
+require 'rtoolchain/gnu/objdump/objdump_task'
 
 module RToolchain
   module GNU

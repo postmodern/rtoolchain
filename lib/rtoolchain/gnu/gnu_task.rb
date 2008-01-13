@@ -1,8 +1,8 @@
-require 'rtoolchain/task'
+require 'rprogram/task'
 
 module RToolchain
   module GNU
-    class GNUTask < Task
+    class GNUTask < RProgram::Task
 
       protected
 

@@ -1,5 +1,5 @@
 require 'rtoolchain/gnu/binutil'
-require 'rtoolchain/gnu/strings/stringstask'
+require 'rtoolchain/gnu/strings/strings_task'
 
 module RToolchain
   module GNU

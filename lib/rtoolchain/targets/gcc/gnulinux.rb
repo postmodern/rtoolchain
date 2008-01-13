@@ -1,4 +1,4 @@
-require 'rtoolchain/targets/gcctarget'
+require 'rtoolchain/targets/gcc_target'
 
 module RToolchain
   module Targets

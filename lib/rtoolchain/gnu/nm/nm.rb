@@ -1,5 +1,5 @@
 require 'rtoolchain/gnu/binutil'
-require 'rtoolchain/gnu/nm/nmtask'
+require 'rtoolchain/gnu/nm/nm_task'
 
 module RToolchain
   module GNU

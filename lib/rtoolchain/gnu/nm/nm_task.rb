@@ -1,8 +1,8 @@
-require 'rtoolchain/task'
+require 'rtoolchain/gnu/binutil_task'
 
 module RToolchain
   module GNU
-    class NMTask < Task
+    class NMTask < BinutilTask
 
       # NM options
 

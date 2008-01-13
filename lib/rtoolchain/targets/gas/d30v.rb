@@ -1,4 +1,4 @@
-require 'rtoolchain/gnu/targets/gastarget'
+require 'rtoolchain/gnu/targets/gas_target'
 
 module RToolchain
   module Targets

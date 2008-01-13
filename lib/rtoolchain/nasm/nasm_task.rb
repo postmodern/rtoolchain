@@ -1,7 +1,7 @@
-require 'rtoolchain/task'
+require 'rprogram/task'
 
 module RToolchain
-  class NASMTask < Task
+  class NASMTask < RProgram::Task
 
     # NASM options
 

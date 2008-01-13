@@ -1,5 +1,5 @@
 require 'rtoolchain/compiler'
-require 'rtoolchain/gnu/gcc/gpptask'
+require 'rtoolchain/gnu/gcc/gpp_task'
 
 module RToolchain
   module GNU

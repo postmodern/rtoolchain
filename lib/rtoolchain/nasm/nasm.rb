@@ -1,5 +1,5 @@
 require 'rtoolchain/assembler'
-require 'rtoolchain/nasm/nasmtask'
+require 'rtoolchain/nasm/nasm_task'
 
 module RToolchain
   class NASM < Assembler

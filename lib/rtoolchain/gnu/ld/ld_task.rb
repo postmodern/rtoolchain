@@ -1,8 +1,8 @@
-require 'rtoolchain/task'
+require 'rtoolchain/gnu/binutil_task'
 
 module RToolchain
   module GNU
-    class LDTask < Task
+    class LDTask < BinutilTask
 
       long_option :flag => '--architecture', :equals => true
       long_option :flag => '--format', :equals => true

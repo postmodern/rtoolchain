@@ -1,5 +1,5 @@
 require 'rtoolchain/linker'
-require 'rtoolchain/gnu/ld/ldtask'
+require 'rtoolchain/gnu/ld/ld_task'
 
 module RToolchain
   module GNU

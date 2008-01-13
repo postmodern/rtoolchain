@@ -1,5 +1,5 @@
 require 'rtoolchain/gnu/binutil'
-require 'rtoolchain/gnu/readelf/readelftask'
+require 'rtoolchain/gnu/readelf/readelf_task'
 
 module RToolchain
   module GNU

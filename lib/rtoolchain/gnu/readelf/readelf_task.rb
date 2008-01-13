@@ -1,8 +1,8 @@
-require 'rtoolchain/task'
+require 'rtoolchain/gnu/binutil_task'
 
 module RToolchain
   module GNU
-    class ReadELFTask < Task
+    class ReadELFTask < BinutilTask
 
       # ReadELF options
 
