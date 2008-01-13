@@ -1,5 +1,5 @@
 require 'rtoolchain/extensions/meta'
-require 'rtoolchain/targets/exceptions/unknowntarget'
+require 'rtoolchain/targets/exceptions/unknown_target'
 
 module RToolchain
   module Targetable
