@@ -12,7 +12,7 @@ module RToolchain
       end
 
       def compile(options={},&block)
-        run_task(GCCTask.new(options,&block))
+        run_with_task(GCCTask.new(options,&block))
       end
 
     end

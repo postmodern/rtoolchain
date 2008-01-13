@@ -12,7 +12,7 @@ module RToolchain
       end
 
       def dump(options={},&block)
-        run_task(ObjdumpTask.new(options,&block))
+        run_with_task(ObjdumpTask.new(options,&block))
       end
 
     end

@@ -12,7 +12,7 @@ module RToolchain
       end
 
       def compile(opts={},&block)
-        run_task(GPPTask.new(opts,&block))
+        run_with_task(GPPTask.new(opts,&block))
       end
 
     end

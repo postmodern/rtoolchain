@@ -16,7 +16,7 @@ module RToolchain
           options[:output] ||= options[:files].to_s.gsub(/\.[sS]$/,'.o')
         end
 
-        return run_task(GASTask.new(options,&block))
+        return run_with_task(GASTask.new(options,&block))
       end
 
     end

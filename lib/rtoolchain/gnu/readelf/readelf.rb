@@ -12,7 +12,7 @@ module RToolchain
       end
 
       def read(options={},&block)
-        run_task(ReadELFTask.new(options,&block))
+        run_with_task(ReadELFTask.new(options,&block))
       end
 
     end

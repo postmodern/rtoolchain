@@ -12,7 +12,7 @@ module RToolchain
       end
 
       def strings(options={},&block)
-        run_task(StringsTask.new(options,&block))
+        run_with_task(StringsTask.new(options,&block))
       end
 
     end

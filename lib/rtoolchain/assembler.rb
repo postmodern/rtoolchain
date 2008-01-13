@@ -1,10 +1,7 @@
-require 'rtoolchain/program'
-require 'rtoolchain/nameable'
+require 'rprogram/program'
 
 module RToolchain
-  class Assembler < Program
-
-    include Nameable
+  class Assembler < RProgram::Program
 
     # Supported architectures
     attr_reader :archs
@@ -16,7 +13,7 @@ module RToolchain
     end
 
     def self.native
-      self.new(self.find_program,[Compat.arch])
+      self.create([Compat.arch])
     end
 
     def supports?(arch)

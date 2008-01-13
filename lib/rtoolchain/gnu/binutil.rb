@@ -1,18 +1,15 @@
-require 'rtoolchain/program'
-require 'rtoolchain/nameable'
+require 'rprogram/program'
 
 module RToolchain
   module GNU
-    class Binutil < Program
-
-      include Nameable
+    class Binutil < RProgram::Program
 
       def initialize(path)
         super(path)
       end
 
       def self.native
-        self.new(self.find_program)
+        self.create
       end
 
     end

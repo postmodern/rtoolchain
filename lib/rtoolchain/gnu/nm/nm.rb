@@ -12,7 +12,7 @@ module RToolchain
       end
 
       def list(options={},&block)
-        run_task(NMTask.new(options,&block))
+        run_with_task(NMTask.new(options,&block))
       end
 
     end

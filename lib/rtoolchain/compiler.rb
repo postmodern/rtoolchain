@@ -1,10 +1,7 @@
-require 'rtoolchain/program'
-require 'rtoolchain/nameable'
+require 'rprogram/program'
 
 module RToolchain
-  class Compiler < Program
-
-    include Nameable
+  class Compiler < RProgram::Program
 
     # Supported platform
     attr_reader :platform
@@ -12,6 +9,14 @@ module RToolchain
     # Supported architectures
     attr_reader :archs
 
+    #
+    # Creates a new Compiler object with the given program _path_
+    # and the supported _platform_. The compiler's supported
+    # architectures may be optionally specified in _archs_.
+    #
+    #   Compiler.new('/usr/bin/gcc','linux')
+    #   Compiler.new('/usr/bin/gcc','freebsd',['i386','i686'])
+    #
     def initialize(path,platform,archs=[])
       super(path)
 
@@ -20,7 +25,7 @@ module RToolchain
     end
 
     def self.native
-      self.new(self.find_program,Compat.platform,[Compat.arch])
+      self.create(Compat.platform,[Compat.arch])
     end
 
     def supports?(platform,arch)

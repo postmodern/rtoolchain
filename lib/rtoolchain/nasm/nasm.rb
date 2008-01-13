@@ -11,7 +11,7 @@ module RToolchain
     end
 
     def assemble(options={},&block)
-      run_task(NASMTask.new(options,&block))
+      run_with_task(NASMTask.new(options,&block))
     end
 
   end

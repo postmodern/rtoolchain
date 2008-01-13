@@ -10,7 +10,7 @@ module RToolchain
       end
 
       def link(options={},&block)
-        run_task(LDTask.new(options,&block))
+        run_with_task(LDTask.new(options,&block))
       end
 
     end
