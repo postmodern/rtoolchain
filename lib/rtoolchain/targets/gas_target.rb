@@ -7,16 +7,16 @@ module RToolchain
 
       protected
 
-      def Object.target(name)
+      def self.target(name)
         GASTask.support_target(name,self)
       end
 
-      def Object.gnu_extension(name)
+      def self.gnu_extension(name)
         long_option :flag => "-m#{name}", :name => "enable_#{name}"
         long_option :flag => "-mno-#{name}", :name => "disable_#{name}"
       end
 
-      def Object.gnu_cpu(name)
+      def self.gnu_cpu(name)
         long_option :flag => "-m#{name}", :name => "cpu_#{name}"
       end
 

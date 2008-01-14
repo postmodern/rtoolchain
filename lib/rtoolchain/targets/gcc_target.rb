@@ -7,7 +7,7 @@ module RToolchain
 
       protected
 
-      def Object.target(name)
+      def self.target(name)
         GCCTask.support_target(name,self)
       end
 
