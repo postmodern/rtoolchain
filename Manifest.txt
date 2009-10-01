@@ -88,3 +88,6 @@ lib/rtoolchain/nasm/nasm_task.rb
 lib/rtoolchain/nasm/nasm.rb
 lib/rtoolchain/nasm/rtoolchain.rb
 lib/rtoolchain/nasm.rb
+tasks/spec.rb
+spec/spec_helper.rb
+spec/rtoolchain_spec.rb
