@@ -3,7 +3,6 @@
 require 'rubygems'
 require 'hoe'
 require 'hoe/signing'
-require './lib/rtoolchain/version.rb'
 
 Hoe.spec('rtoolchain') do
   self.rubyforge_name = 'rtoolchain'
