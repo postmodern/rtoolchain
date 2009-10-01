@@ -16,7 +16,7 @@ assemblers. Currently RToolchain supports the GNU toolchain and NASM.
 
 == REQUIREMENTS:
 
-* {rprogram}[http://rprogram.rubyforge.org/] >= 0.1.3
+* {rprogram}[http://rprogram.rubyforge.org/] >= 0.1.7
 
 == INSTALL:
 
