@@ -1,6 +1,8 @@
-RToolchain
-    by Postmodern Modulus III
-    http://rubyforge.net/projects/rtoolchain/
+= RToolchain
+
+* http://rtoolchain.rubyforge.org/
+* http://github.com/postmodern/rtoolchain
+* Postmodern (postmodern.mod3 at gmail.com)
 
 == DESCRIPTION:
   
@@ -20,9 +22,7 @@ assemblers. Currently RToolchain supports the GNU toolchain and NASM.
 
 == LICENSE:
 
-The MIT License
-
-Copyright (c) 2007 Hal Brodigan
+Copyright (c) 2007-2009 Hal Brodigan
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
