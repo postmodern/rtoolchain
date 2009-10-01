@@ -51,7 +51,7 @@ lib/rtoolchain/targets/gcc/x86.rb
 lib/rtoolchain/targets/gcc/x86_64.rb
 lib/rtoolchain/targets/targets.rb
 lib/rtoolchain/targets.rb
-lib/rtoolchain/gnu/gnutask.rb
+lib/rtoolchain/gnu/gnu_task.rb
 lib/rtoolchain/gnu/binutil.rb
 lib/rtoolchain/gnu/ld/ld_task.rb
 lib/rtoolchain/gnu/ld/ld.rb
