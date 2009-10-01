@@ -88,4 +88,3 @@ lib/rtoolchain/nasm/nasm_task.rb
 lib/rtoolchain/nasm/nasm.rb
 lib/rtoolchain/nasm/rtoolchain.rb
 lib/rtoolchain/nasm.rb
-test/test_rtoolchain.rb
